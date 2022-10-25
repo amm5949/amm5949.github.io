@@ -2,11 +2,13 @@
   "name": "test1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://amm5949.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "axios": "^1.1.3",
+    "gh-pages": "^4.0.0",
     "heatmap.js": "^2.0.5",
     "react": "^18.2.0",
     "react-datepicker": "^4.8.0",
@@ -19,7 +21,9 @@
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
