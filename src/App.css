@@ -1,0 +1,231 @@
+.App{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.img {
+  position: absolute;
+}
+/* .image {
+  background-image: url('./Assets/layout.jpg');
+} */
+.datepicker-from {
+  margin-left: 1030px;
+  position: absolute;
+  z-index: 5;
+}
+.datepicker-from > p {
+  margin-top: 10px;
+}
+.datepicker-to {
+  margin-top: 80px;
+  margin-left: 1030px;
+  position: absolute;
+  z-index: 4;
+}
+.dropdown {
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 150px;
+  z-index: 3;
+}
+.dropdown ~ p {
+  margin-top: 180px;
+}
+#Hello {
+  width: 757px;
+  display: flex;
+  height: 731px;
+}
+.project {
+  margin-left: 740px;
+  margin-top: 760px;
+}
+.sensor01 {
+  background-color: red;
+  position: fixed;
+  margin-left: 268px;
+  margin-top: 109px;
+  width: 25px;
+  height: 31px;
+}
+.sensor02 {
+  background-color: red;
+  position: fixed;
+  margin-left: 280px;
+  margin-top: 270px;
+  width: 25px;
+  height: 31px;
+}
+.sensor03 {
+  background-color: red;
+  position: fixed;
+  margin-left: 345px;
+  margin-top: 352px;
+  width: 25px;
+  height: 31px;
+}
+.sensor04 {
+  background-color: red;
+  position: fixed;
+  margin-left: 228px;
+  margin-top: 488px;
+  width: 25px;
+  height: 31px;
+}
+.sensor05 {
+  background-color: red;
+  position: fixed;
+  margin-left: 411px;
+  margin-top: 433px;
+  width: 25px;
+  height: 31px;
+}
+.sensor07 {
+  background-color: red;
+  position: fixed;
+  margin-left: 410px;
+  margin-top: 341px;
+  width: 25px;
+  height: 31px;
+}
+.sensor08 {
+  background-color: red;
+  position: fixed;
+  margin-left: 224px;
+  margin-top: 193px;
+  width: 25px;
+  height: 31px;
+}
+.sensor09 {
+  background-color: red;
+  position: fixed;
+  margin-left: 225px;
+  margin-top: 290px;
+  width: 25px;
+  height: 31px;
+}
+.sensor12 {
+  background-color: red;
+  position: fixed;
+  margin-left: 348px;
+  margin-top: 541px;
+  width: 25px;
+  height: 31px;
+}
+.sensor20 {
+  background-color: red;
+  position: fixed;
+  margin-left: 323px;
+  margin-top: 74px;
+  width: 25px;
+  height: 31px;
+}
+.sensor21 {
+  background-color: red;
+  position: fixed;
+  margin-left: 380px;
+  margin-top: 118px;
+  width: 25px;
+  height: 31px;
+}
+.sensor22 {
+  background-color: red;
+  position: fixed;
+  margin-left: 380px;
+  margin-top: 211px;
+  width: 25px;
+  height: 31px;
+}
+.sensor23 {
+  background-color: red;
+  position: fixed;
+  margin-left: 483px;
+  margin-top: 384px;
+  width: 25px;
+  height: 31px;
+}
+.sensor24 {
+  background-color: red;
+  position: fixed;
+  margin-left: 605px;
+  margin-top: 267px;
+  width: 25px;
+  height: 31px;
+}
+.sensor25 {
+  background-color: red;
+  position: fixed;
+  margin-left: 605px;
+  margin-top: 224px;
+  width: 25px;
+  height: 31px;
+}
+.sensor26 {
+  background-color: red;
+  position: fixed;
+  margin-left: 605px;
+  margin-top: 143px;
+  width: 25px;
+  height: 31px;
+}
+.sensor27 {
+  background-color: red;
+  position: fixed;
+  margin-left: 452px;
+  margin-top: 40px;
+  width: 25px;
+  height: 31px;
+}
+.sensor28 {
+  background-color: red;
+  position: fixed;
+  margin-left: 409px;
+  margin-top: 254px;
+  width: 25px;
+  height: 31px;
+}
+.sensor29 {
+  background-color: red;
+  position: fixed;
+  margin-left: 212px;
+  margin-top: 648px;
+  width: 25px;
+  height: 31px;
+}
+.sensor50 {
+  background-color: red;
+  position: fixed;
+  margin-left: 182px;
+  margin-top: 341px;
+  width: 25px;
+  height: 31px;
+}
+.sensor52 {
+  background-color: red;
+  position: fixed;
+  margin-left: 323px;
+  margin-top: 391px;
+  width: 25px;
+  height: 31px;
+}
+.sensor53 {
+  background-color: red;
+  position: fixed;
+  margin-left: 148px;
+  margin-top: 340px;
+  width: 25px;
+  height: 31px;
+}
+.sensor54 {
+  background-color: red;
+  position: fixed;
+  margin-left: 57px;
+  margin-top: 300px;
+  width: 25px;
+  height: 31px;
+}
+.view{
+  width: 731px;
+  height: 757px;
+  position: absolute;
+}
