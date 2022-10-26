@@ -5,7 +5,7 @@ import axios from "axios";
 // import Layout from "./assets/layout.jpg";
 import "./App.css";
 import "react-datepicker/dist/react-datepicker.css";
-import imgSrc from './assets/Picture1.jpg'
+import imgSrc from "./assets/Picture1.jpg";
 
 const baseUrl = "https://www.hibouconnect.com/tapi";
 const GET = "GET";
@@ -218,13 +218,13 @@ function App() {
         y: value.y,
         // y: Math.floor(Math.random() * height),
         value: parseFloat(data1[index]?.value),
-        radius: 70
+        radius: 70,
       };
       // points.pop();
       console.log(point);
       points.push(point);
-    })
-    
+    });
+
     // heatmap data format
     var data = {
       max: max,
@@ -237,14 +237,14 @@ function App() {
 
   return (
     <div className="App">
-      <img src={imgSrc}/>
+      <img src={imgSrc} />
       <div className="datepicker-from">
         <DatePicker selected={From} onChange={handleFromChangeDate} />
-        <p>salaam From</p>
+        <p>From</p>
       </div>
       <div className="datepicker-to">
         <DatePicker selected={To} onChange={handleToChangeDate} />
-        <p>salaam To</p>
+        <p>To</p>
       </div>
       <div>
         <select
